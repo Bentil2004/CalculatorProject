@@ -8,11 +8,11 @@
 </head>
 <body>
     <div id="calculator">
-        <input id="result" placeholder="0  " readonly>
+        <input id="result" placeholder="0" readonly>
         <div id="keys">
             <button onclick="clearDisplay()" id="color-ash">AC</button>
-            <button onclick="appendToDisplay('')" id="color-ash">+/-</button>
-            <button onclick="appendToDisplay('%')" id="color-ash">%</button>
+            <button onclick="changeSign()" id="color-ash">+/-</button>
+            <button onclick="calculatePercentage()" id="color-ash">%</button>
             <button onclick="appendToDisplay('+')" id="color-orange">+</button>
             <button onclick="appendToDisplay('7')">7</button>
             <button onclick="appendToDisplay('8')">8</button>
