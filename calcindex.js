@@ -12,7 +12,7 @@ function calculate() {
   try {
     const calculation = result.value;
     const resultValue = eval(calculation);
-    result.value = parseFloat(resultValue).toFixed(2);
+    result.value = parseFloat(resultValue).toFixed(5);
   } catch (error) {
     result.value = "Error";
   }
